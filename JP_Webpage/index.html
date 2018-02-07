@@ -16,14 +16,14 @@
     <p>Type the URL into the text box to get your shortened link.</p>
   </div>
   <div class="container" style="margin-top:2em; text-align:center;">
-    <form class="needs-validation was-validated" novalidate="">
+    <form action="/var/www/html/welcome.php" method="post" class="needs-validation was-validated" novalidate="">
       <div class="row">
         <div class="col-md-12 order-md-1">
           <label for="url">URL</label>
-          <input id="url" class="form-control" placeholder="" value="" required type="text">
+          <input id="url" class="form-control" placeholder="" value="" required type="text" name="url">
         </div>
         <div class="invalid-feedback">
-            Valid URL required
+            <p>Valid URL required</p>
         </div>
       </div>
       <button class="btn btn-outline-info btn-lg btn-block" type="submit" style="margin-top:2em;">Get your shortened URL code</button>
