@@ -17,7 +17,8 @@
 
   <div class="py-5 text-center" style="background-color:white; color:#17a2b8; margin-top:4em; padding:0 3em;" >
           <h2>Now What?</h2>
-          <p>Now that you've gotten your token, just simply put the name of our website followed by a forward slash and your token, in place of the old URL, and presto! You now have a shorter URL</p>
+          <p>Now that you've gotten your token, just simply replace your old URL in the address bar of your browser with our website name followed by a forward slash, followed by the new token name, and presto! You now have a shorter URL!</p>
+
           <p>(ex. http://ourwebsite.com/token)</p>
   </div>
 
